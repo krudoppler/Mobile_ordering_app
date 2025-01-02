@@ -1,4 +1,6 @@
 import { menuArray } from "./data.js";
+// Global Variable
+let selectedItems = []
 
 // DOM Elements
 const menuContainer = document.getElementById("menu-container");
@@ -6,11 +8,11 @@ const menuContainer = document.getElementById("menu-container");
 // Event Listeners
 document.addEventListener("click", function (e) {
   if (e.target.dataset.pizza) {
-    console.log("You choose Pizza");
+    addItemToOrder("Pizza", 14);
   } else if (e.target.dataset.hamburger) {
-    console.log("You choose Hamburger");
+    getHamburger();
   } else if (e.target.dataset.beer) {
-    console.log("You choose Beer");
+    getBeer();
   }
 });
 
@@ -56,3 +58,11 @@ function renderMenuItems() {
 }
 
 renderMenuItems();
+
+function addItemToOrder(){
+
+}
+
+function renderOrder() {
+
+}
