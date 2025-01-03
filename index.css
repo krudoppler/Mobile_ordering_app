@@ -117,3 +117,109 @@ body {
   font-size: 30px;
   font-weight: 100;
 }
+
+.remove-btn {
+  border: 0 solid white;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #bbbbbb;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+}
+
+.order-btn-container {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.order-btn {
+  padding: 17px 280px;
+  border: 0 solid white;
+  border-radius: 3.6px;
+  background-color: #16db99;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.order-btn:hover {
+  cursor: pointer;
+}
+
+/* Modal Styling */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 520px;
+  width: 600px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 8px #666;
+  background-color: white;
+  color: black;
+}
+
+.modal-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form input {
+  border: 1px solid #757575;
+  border-radius: 2.3px;
+  width: 510px;
+  height: 50px;
+  margin: 10px;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.submit-button {
+  padding: 25px 243px;
+  margin-top: 105px;
+  background-color: #16db99;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 2.3px;
+  font-size: 20px;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+}
+
+/* Order Complete Styling */
+
+.order-complete {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  padding: 50px 150px;
+  background-color: #ECFDF5;
+  border-radius: 3.6px;
+  font-family: "Smythe", serif;
+}
+
+.order-complete-text {
+  font-size: 50px;
+  color: #065F46;
+}

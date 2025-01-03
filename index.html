@@ -21,6 +21,36 @@
     </section>
     <section class="menu-container" id="menu-container"></section>
     <section id="order-container"></section>
+    <div class="modal" id="modal">
+      <div class="modal-inner" id="modal-inner">
+        <h2 class="modal-text">Enter card details</h2>
+        <form action="" class="form-container" id="form-container">
+          <input
+            type="text"
+            name="name-for-credit"
+            id="name-for-credit"
+            placeholder="Enter your Name"
+            required
+          />
+          <input
+            type="text"
+            name="cc-num"
+            id="cc-num"
+            placeholder="Enter your Credit Card "
+            required
+          />
+          <input
+            type="text"
+            name="cc-cvv"
+            id="cc-cvv"
+            placeholder="Enter your CVV"
+            required
+          />
+          <button id="submit-button" class="submit-button"> Pay </button>
+        </form>
+      </div>
+    </div>
+    <section id="order-complete" class="order-complete"></section>
 
     <script src="index.js" type="module"></script>
   </body>
