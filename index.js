@@ -58,9 +58,7 @@ function getMenuItems() {
         </div>
         <div class="menu-item-btn">
             <button class="menu-button">
-                <i class="fa-solid fa-circle-plus" data-${menuItem.name}="${
-      menuItem.id
-    }">
+                <i class="fa-solid fa-circle-plus" data-${menuItem.name}="${menuItem.id}">
                 </i>
             </button>
         </div>
