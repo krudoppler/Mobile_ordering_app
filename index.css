@@ -52,24 +52,68 @@ body {
 }
 
 .menu-button {
-    border: 0px;
-    background-color: white;
+  border: 0px;
+  background-color: white;
 }
 
 .fa-circle-plus {
-    font-size: 40px; 
-    color: #8b8b8b; 
-  }
+  font-size: 40px;
+  color: #8b8b8b;
+}
 
-  .fa-circle-plus:hover {
-    color: aquamarine;
-  }
-
-
+.fa-circle-plus:hover {
+  color: aquamarine;
+}
 
 .divider {
   border: none;
   border-top: 1px solid lightgray;
   margin: 10px auto;
   width: 90%;
+}
+
+/* Order Container Styling */
+
+.order-container {
+  font-family: "Smythe", serif;
+}
+
+.order-title-container {
+  font-family: "Smythe", serif;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-name {
+  padding-left: 65px;
+  font-family: "Smythe", serif;
+  font-size: 28px;
+}
+
+.order-price {
+  font-family: "Smythe", serif;
+  font-size: 28px;
+  padding-right: 65px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Smythe", serif;
+}
+
+.text-price {
+  padding-left: 55px;
+  font-size: 32px;
+}
+
+.order-total-price {
+  padding-right: 55px;
+  font-size: 30px;
+  font-weight: 100;
 }
